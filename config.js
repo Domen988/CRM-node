@@ -1,5 +1,5 @@
 module.exports = {
 	"port" : process.env.PORT || 8080,
-	"database" : 'mongodb://a:a@ds043447.mongolab.com:43447/heroku_app34826715',
+	"database" : 'localhost:27017/RESTtest',
 	"secret" : "ilikedthedaythatcould"
 }

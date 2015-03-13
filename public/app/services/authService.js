@@ -37,7 +37,7 @@ angular.module("authService", [])
 		if (AuthToken.getToken())
 			return true;
 		else
-			return true;//=================================
+			return false;
 	};
 
 	// get the logged in user
